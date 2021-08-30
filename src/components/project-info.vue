@@ -48,6 +48,8 @@
 </template>
 
 <script>
+import {moduleName} from 'vuex';
+
 export default {
   name: "project-info",
   data() {
