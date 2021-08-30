@@ -7,7 +7,11 @@
         <span>A</span>
       </div>
 
-      <div class="text-h6">Utsman Affan</div>
+      <div class="text-h6">
+          {{ projects[0].title }}
+
+
+      </div>
     </div>
 
     <!-- title -->
@@ -48,7 +52,7 @@
 </template>
 
 <script>
-import {moduleName} from 'vuex';
+import { mapState } from 'vuex';
 
 export default {
   name: "project-info",
@@ -60,6 +64,7 @@ export default {
     };
   },
   computed: {
+      ...mapState('app', ['projects']),
     progress() {
       return parseInt((this.lazy / this.max) * 100);
     },
