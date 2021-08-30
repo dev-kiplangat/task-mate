@@ -36,12 +36,12 @@
       <div class="text-h5">Telemetry Calculator</div>
       <div class="subtitle-text1">Some things just need time!</div>
     </div>
-    <div class="q-pa-md row items-center q-gutter-md">
-      <q-avatar size="20px">
+    <div class="q-pa-md row items-center q-gutter-sm">
+      <q-avatar size="35px">
         <img src="https://cdn.quasar.dev/img/avatar.png" />
       </q-avatar>
 
-      <q-avatar size="20px">
+      <q-avatar size="35px">
         <img src="https://cdn.quasar.dev/img/avatar.png" />
       </q-avatar>
 
@@ -59,7 +59,7 @@ export default {
 <style lang="scss" scoped>
 .custom-card {
   max-width: 250px;
-  border-radius: 20px;
+  border-radius: 8px;
   background: #eee;
 }
 </style>

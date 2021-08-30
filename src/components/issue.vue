@@ -1,6 +1,12 @@
 <template>
   <div class="column">
-    <div class="text-h5 text-center q-pa-lg">Issues heighted will be posted here.</div>
+    <div class="row q-pa-md items-center justify-between">
+      <div class="text-h2">--</div>
+      <q-btn label="New Issue" no-caps color="secondary" />
+    </div>
+    <div class="text-h6 text-center q-pa-lg">
+      Issues heighted will be posted here.
+    </div>
   </div>
 </template>
 

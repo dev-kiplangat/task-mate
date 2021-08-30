@@ -33,9 +33,7 @@
             </q-tab-panel>
 
             <q-tab-panel name="issues">
-              <div class="text-h6">Alarms</div>
-              Ad molestiae non facere animi nobis, similique nemo velit
-              reiciendis corporis impedit nam in.
+              <issue />
             </q-tab-panel>
 
             <q-tab-panel name="goals">
@@ -60,6 +58,7 @@
 import topBar from "@/components/top-bar.vue";
 import TasksPanel from "@/components/tasks-panel.vue";
 import createTask from "@/components/create-task.vue";
+import issue from "@/components/issue.vue";
 
 export default {
   name: "homeContent",
@@ -67,7 +66,9 @@ export default {
     "top-bar": topBar,
     "tasks-panel": TasksPanel,
     "create-task": createTask,
+    issue,
   },
+
   data() {
     return {
       tab: "tasks",

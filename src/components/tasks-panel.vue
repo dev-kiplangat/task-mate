@@ -4,8 +4,8 @@
       <template v-slot:before>
         <q-tabs v-model="tab" vertical>
           <q-tab name="todo" icon="task" label="In Progress" />
-          <q-tab name="review" icon="task_add_outline" label="To Review" />
-          <q-tab name="finished" icon="task_check" label="Finished" />
+          <q-tab name="review" icon="task" label="To Review" />
+          <q-tab name="finished" icon="checked" label="Finished" />
         </q-tabs>
       </template>
 
